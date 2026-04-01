@@ -6,8 +6,8 @@ const buildWhatsAppHref = (message: string) =>
 export const siteData = {
   brand: {
     name: 'D’Barbers',
-    tagline: 'Barbería premium',
-    city: 'Bogotá',
+    tagline: 'D´Barbers',
+    city: 'Armenia, Quindio',
   },
   navigation: [
     { label: 'Inicio', href: '#inicio' },
