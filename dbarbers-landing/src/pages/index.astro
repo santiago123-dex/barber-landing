@@ -33,7 +33,7 @@ const schema = {
         <span class="font-display text-3xl font-semibold normal-case tracking-[0.08em] text-ivory">
           {brand.name}
         </span>
-        <span class="hidden h-px w-10 bg-gold/60 md:block"></span>
+        <span class="hidden h-px w-10 bg-accent/60 md:block"></span>
         <span class="hidden md:inline">{brand.tagline}</span>
       </a>
 
@@ -52,7 +52,7 @@ const schema = {
           href={hero.primaryCtaHref}
           target="_blank"
           rel="noreferrer"
-          class="rounded-full border border-gold/60 bg-gold px-5 py-3 text-sm font-semibold text-noir transition hover:-translate-y-0.5 hover:bg-ivory"
+          class="rounded-full border border-accent/60 bg-accent px-5 py-3 text-sm font-semibold text-noir transition hover:-translate-y-0.5 hover:bg-white"
         >
           {hero.primaryCtaLabel}
         </a>
@@ -85,7 +85,7 @@ const schema = {
           href={hero.primaryCtaHref}
           target="_blank"
           rel="noreferrer"
-          class="mt-2 inline-flex items-center justify-center rounded-full bg-gold px-5 py-3 text-sm font-semibold text-noir"
+          class="mt-2 inline-flex items-center justify-center rounded-full bg-accent px-5 py-3 text-sm font-semibold text-noir"
         >
           {hero.primaryCtaLabel}
         </a>
@@ -100,13 +100,13 @@ const schema = {
         alt="Interior de barbería premium con barbero en acción"
         class="absolute inset-0 h-full w-full object-cover"
       />
-      <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(176,141,87,0.18),transparent_28%),linear-gradient(90deg,rgba(11,11,11,0.9)_0%,rgba(11,11,11,0.78)_42%,rgba(11,11,11,0.32)_100%)]"></div>
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(193,18,31,0.2),transparent_28%),linear-gradient(90deg,rgba(11,11,11,0.92)_0%,rgba(11,11,11,0.8)_42%,rgba(11,11,11,0.34)_100%)]"></div>
       <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-noir to-transparent"></div>
 
       <div class="relative mx-auto grid min-h-[92svh] w-full max-w-7xl items-end px-5 pb-14 md:px-8 md:pb-20 lg:grid-cols-[minmax(0,34rem)_1fr]">
         <div class="max-w-2xl" data-reveal>
           <p class="section-label">{hero.eyebrow}</p>
-          <p class="mt-6 font-display text-4xl font-semibold uppercase tracking-[0.2em] text-gold sm:text-5xl">
+          <p class="mt-6 font-display text-4xl font-semibold uppercase tracking-[0.2em] text-accent sm:text-5xl">
             {brand.name}
           </p>
           <h1 class="mt-4 max-w-xl text-balance font-display text-5xl leading-[0.95] font-semibold text-ivory sm:text-6xl lg:text-7xl">
@@ -121,13 +121,13 @@ const schema = {
               href={hero.primaryCtaHref}
               target="_blank"
               rel="noreferrer"
-              class="inline-flex min-h-13 items-center justify-center rounded-full bg-gold px-6 py-4 text-sm font-semibold text-noir transition duration-300 hover:-translate-y-0.5 hover:bg-ivory"
+              class="inline-flex min-h-13 items-center justify-center rounded-full bg-accent px-6 py-4 text-sm font-semibold text-noir transition duration-300 hover:-translate-y-0.5 hover:bg-white"
             >
               {hero.primaryCtaLabel}
             </a>
             <a
               href={hero.secondaryCtaHref}
-              class="inline-flex min-h-13 items-center justify-center rounded-full border border-white/20 px-6 py-4 text-sm font-semibold text-ivory transition duration-300 hover:border-gold/65 hover:text-gold"
+              class="inline-flex min-h-13 items-center justify-center rounded-full border border-white/20 px-6 py-4 text-sm font-semibold text-ivory transition duration-300 hover:border-accent/65 hover:text-accent"
             >
               {hero.secondaryCtaLabel}
             </a>
@@ -137,7 +137,7 @@ const schema = {
             {
               hero.trustBadges.map((badge) => (
                 <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 backdrop-blur-sm">
-                  <span class="size-2 rounded-full bg-gold"></span>
+                  <span class="size-2 rounded-full bg-accent"></span>
                   {badge}
                 </span>
               ))
@@ -152,7 +152,7 @@ const schema = {
         {
           usp.map((item) => (
             <div data-reveal class="flex items-start gap-4">
-              <span class="mt-2 size-2 shrink-0 rounded-full bg-gold"></span>
+              <span class="mt-2 size-2 shrink-0 rounded-full bg-accent"></span>
               <div>
                 <p class="text-sm font-semibold uppercase tracking-[0.28em] text-ivory">{item.title}</p>
                 <p class="mt-2 text-sm leading-6 text-ivory/68">{item.body}</p>
@@ -176,7 +176,7 @@ const schema = {
         </p>
         <div class="flex items-end gap-4 text-right">
           <div>
-            <p class="text-4xl font-semibold text-gold">10+</p>
+            <p class="text-4xl font-semibold text-accent">10+</p>
             <p class="mt-2 text-sm uppercase tracking-[0.25em] text-ivory/55">años refinando estilo</p>
           </div>
         </div>
@@ -207,7 +207,7 @@ const schema = {
               ]}
             >
               <div>
-                <p class="text-sm uppercase tracking-[0.28em] text-gold">0{index + 1}</p>
+                <p class="text-sm uppercase tracking-[0.28em] text-accent">0{index + 1}</p>
                 <h3 class="mt-3 font-display text-3xl font-semibold text-ivory">{service.name}</h3>
                 <p class="mt-4 max-w-xl text-base leading-7 text-ivory/68">{service.description}</p>
               </div>
@@ -226,7 +226,7 @@ const schema = {
                   href={service.ctaHref}
                   target="_blank"
                   rel="noreferrer"
-                  class="inline-flex min-h-12 items-center justify-center rounded-full border border-gold/60 px-5 py-3 text-sm font-semibold text-gold transition hover:-translate-y-0.5 hover:bg-gold hover:text-noir"
+                  class="inline-flex min-h-12 items-center justify-center rounded-full border border-accent/60 px-5 py-3 text-sm font-semibold text-accent transition hover:-translate-y-0.5 hover:bg-accent hover:text-noir"
                 >
                   {service.ctaLabel}
                 </a>
@@ -284,7 +284,7 @@ const schema = {
                 </div>
                 <div class="relative bg-noir">
                   <img src={item.afterImage} alt="Después del servicio" loading="lazy" class="h-72 w-full object-cover md:h-96" />
-                  <span class="absolute left-4 top-4 rounded-full bg-gold px-3 py-2 text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-noir">
+                  <span class="absolute left-4 top-4 rounded-full bg-accent px-3 py-2 text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-noir">
                     Después
                   </span>
                 </div>
@@ -312,7 +312,7 @@ const schema = {
         {
           testimonials.map((testimonial) => (
             <article data-reveal class="flex h-full flex-col rounded-[2rem] border border-white/10 bg-white/[0.03] p-6">
-              <div class="flex gap-1 text-gold">
+              <div class="flex gap-1 text-accent">
                 {Array.from({ length: testimonial.rating }).map(() => <span>★</span>)}
               </div>
               <p class="mt-5 text-base leading-7 text-ivory/74">“{testimonial.quote}”</p>
@@ -327,7 +327,7 @@ const schema = {
     </section>
 
     <section class="mx-auto max-w-7xl px-5 pb-10 md:px-8">
-      <div data-reveal class="overflow-hidden rounded-[2.25rem] border border-gold/25 bg-[linear-gradient(135deg,rgba(176,141,87,0.22),rgba(42,42,42,0.5))] px-6 py-12 md:px-10 lg:px-14">
+      <div data-reveal class="overflow-hidden rounded-[2.25rem] border border-accent/25 bg-[linear-gradient(135deg,rgba(193,18,31,0.2),rgba(255,255,255,0.04))] px-6 py-12 md:px-10 lg:px-14">
         <p class="section-label !text-ivory/72">Reserva</p>
         <div class="mt-6 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
           <div>
@@ -341,13 +341,13 @@ const schema = {
               href={closingCta.primaryCtaHref}
               target="_blank"
               rel="noreferrer"
-              class="inline-flex min-h-13 w-full items-center justify-center rounded-full bg-ivory px-6 py-4 text-sm font-semibold text-noir transition hover:-translate-y-0.5 hover:bg-white lg:w-auto"
+              class="inline-flex min-h-13 w-full items-center justify-center rounded-full bg-white px-6 py-4 text-sm font-semibold text-noir transition hover:-translate-y-0.5 hover:bg-white lg:w-auto"
             >
               {closingCta.primaryCtaLabel}
             </a>
             <a
               href={closingCta.secondaryCtaHref}
-              class="inline-flex min-h-13 w-full items-center justify-center rounded-full border border-white/18 px-6 py-4 text-sm font-semibold text-ivory transition hover:border-ivory/60 hover:text-white lg:w-auto"
+              class="inline-flex min-h-13 w-full items-center justify-center rounded-full border border-white/18 px-6 py-4 text-sm font-semibold text-ivory transition hover:border-white/70 hover:text-white lg:w-auto"
             >
               {closingCta.secondaryCtaLabel}
             </a>
@@ -370,19 +370,19 @@ const schema = {
           <div data-reveal class="space-y-6">
             <div>
               <p class="text-xs uppercase tracking-[0.24em] text-ivory/45">{contact.whatsappLabel}</p>
-              <a href={contact.whatsappHref} target="_blank" rel="noreferrer" class="mt-2 block text-lg text-ivory transition hover:text-gold">
+              <a href={contact.whatsappHref} target="_blank" rel="noreferrer" class="mt-2 block text-lg text-ivory transition hover:text-accent">
                 {contact.whatsappValue}
               </a>
             </div>
             <div>
               <p class="text-xs uppercase tracking-[0.24em] text-ivory/45">{contact.phoneLabel}</p>
-              <a href={contact.phoneHref} class="mt-2 block text-lg text-ivory transition hover:text-gold">
+              <a href={contact.phoneHref} class="mt-2 block text-lg text-ivory transition hover:text-accent">
                 {contact.phoneValue}
               </a>
             </div>
             <div>
               <p class="text-xs uppercase tracking-[0.24em] text-ivory/45">{contact.emailLabel}</p>
-              <a href={contact.emailHref} class="mt-2 block text-lg text-ivory transition hover:text-gold">
+              <a href={contact.emailHref} class="mt-2 block text-lg text-ivory transition hover:text-accent">
                 {contact.emailValue}
               </a>
             </div>
@@ -398,7 +398,7 @@ const schema = {
             <div>
               <p class="text-xs uppercase tracking-[0.24em] text-ivory/45">Síguenos</p>
               <div class="mt-2 flex flex-wrap gap-4 text-base text-ivory/72">
-                {socialLinks.map((link) => <a href={link.href} target="_blank" rel="noreferrer" class="transition hover:text-gold">{link.label}</a>)}
+                {socialLinks.map((link) => <a href={link.href} target="_blank" rel="noreferrer" class="transition hover:text-accent">{link.label}</a>)}
               </div>
             </div>
           </div>
@@ -417,7 +417,7 @@ const schema = {
                 href={contact.directionsHref}
                 target="_blank"
                 rel="noreferrer"
-                class="inline-flex min-h-12 items-center justify-center rounded-full border border-gold/60 px-5 py-3 text-sm font-semibold text-gold transition hover:bg-gold hover:text-noir"
+                class="inline-flex min-h-12 items-center justify-center rounded-full border border-accent/60 px-5 py-3 text-sm font-semibold text-accent transition hover:bg-accent hover:text-noir"
               >
                 Abrir en Google Maps
               </a>
@@ -440,7 +440,7 @@ const schema = {
     href={contact.whatsappHref}
     target="_blank"
     rel="noreferrer"
-    class="fixed bottom-4 right-4 z-50 inline-flex items-center gap-3 rounded-full bg-gold px-4 py-3 text-sm font-semibold text-noir shadow-[0_18px_50px_rgba(0,0,0,0.35)] transition hover:-translate-y-0.5 hover:bg-ivory sm:bottom-6 sm:right-6"
+    class="fixed bottom-4 right-4 z-50 inline-flex items-center gap-3 rounded-full bg-accent px-4 py-3 text-sm font-semibold text-noir shadow-[0_18px_50px_rgba(0,0,0,0.35)] transition hover:-translate-y-0.5 hover:bg-white sm:bottom-6 sm:right-6"
   >
     <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
       <path d="M7.5 7.5h9v9h-9z" opacity="0" />
