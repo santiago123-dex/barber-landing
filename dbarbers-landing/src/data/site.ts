@@ -100,29 +100,6 @@ export const siteData = {
       caption: 'Antes / después: definición, simetría y una presencia mucho más pulida.',
     },
   ],
-  testimonials: [
-    {
-      quote:
-        'Llegué por recomendación y terminé quedándome. El nivel de detalle y la atención se sienten muy por encima de una barbería promedio.',
-      name: 'Juan Esteban R.',
-      service: 'Corte clásico y moderno',
-      rating: 5,
-    },
-    {
-      quote:
-        'La barba quedó perfectamente perfilada y el acabado final duró varios días viéndose impecable. Se nota la mano profesional.',
-      name: 'Andrés M.',
-      service: 'Perfilado y arreglo de barba',
-      rating: 5,
-    },
-    {
-      quote:
-        'No solo te hacen ver mejor, también te asesoran bien. Se siente una experiencia seria, limpia y premium de principio a fin.',
-      name: 'Sebastián C.',
-      service: 'Ritual premium',
-      rating: 5,
-    },
-  ],
   closingCta: {
     headline: 'Reserva hoy y sal con un look que sí impone presencia.',
     body: 'Agenda tu espacio por WhatsApp y confirma tu cita en minutos. Respuesta rápida durante el horario de atención.',
