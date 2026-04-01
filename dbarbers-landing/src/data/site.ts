@@ -93,7 +93,7 @@ export const siteData = {
     {
       type: 'before_after',
       beforeImage:
-        'https://images.unsplash.com/photo-1512690459411-b0fd1c86b8b8?auto=format&fit=crop&w=900&q=80',
+        '/before-service.svg',
       afterImage:
         'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80',
       alt: 'Comparación antes y después de un arreglo de barba',
