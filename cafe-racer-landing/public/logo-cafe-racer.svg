@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="256" fill="#070B14"/>
+  <circle cx="256" cy="256" r="238" stroke="#F3EAD8" stroke-width="6"/>
+  <circle cx="256" cy="256" r="200" stroke="#C9A66B" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M120 196C150 168 190 148 235 142M392 196C362 168 322 148 277 142" stroke="#C9A66B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M184 244L227 212H285L328 244V300L284 334H228L184 300V244Z" stroke="#C9A66B" stroke-width="8"/>
+  <path d="M257 218V330" stroke="#F3EAD8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M236 248L257 228L278 248" stroke="#F3EAD8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="380" text-anchor="middle" fill="#F3EAD8" font-family="Georgia, serif" font-size="50" font-weight="700" letter-spacing="4">BARBERÍA</text>
+  <text x="256" y="420" text-anchor="middle" fill="#C9A66B" font-family="Georgia, serif" font-size="34" letter-spacing="5">CAFE RACER</text>
+</svg>
